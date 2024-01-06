@@ -239,3 +239,40 @@ li {
 .resume-area .cv {
   text-align: center;
 }
+
+/* footer-area */
+.footer-area {
+  background: #fff8f3;
+  display: flex;
+  gap: 100px;
+  padding: 100px 150px;
+}
+
+.footer-con h2 {
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+.footer-icon{
+  display: flex;
+  gap: 24px;
+}
+.footer-con p {
+  color: #474747;
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+.from input[type="email"],
+[type="text"],
+textarea {
+  width: 100%;
+  margin-bottom: 24px;
+  padding: 18px 20px;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  border: 0;
+  outline: 0;
+}
